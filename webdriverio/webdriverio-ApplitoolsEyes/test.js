@@ -14,8 +14,7 @@ describe('my website should always look the same', function() {
 	before(function() {
 		client.init()
 		webdrivercss.init(client, {
-			// key: 'm7koXQC0Pzt3Lg4gU4NgisRJsEAf9zwuLA3102IK1qIis110',
-            key: 'NhBEEo1frQRbYyUGLZmeazh2s107RAkBMmt6n6ylcsw108w110',
+        key: '<applitools API key>',
 		    // screenshotRoot: 'my-shots',
 		    // failedComparisonsRoot: 'diffs',
 		    // misMatchTolerance: 0.75,
@@ -36,7 +35,7 @@ describe('my website should always look the same', function() {
             .webdrivercss('gmail-02', {
               name: 'test2-passwordpage'
             })
-            .setValue('#Passwd', 'Knight999')
+            .setValue('#Passwd', '<password>')
             .click('#signIn')
             .waitForExist('#:3f')
             .waitForExist('#gbqfb')
