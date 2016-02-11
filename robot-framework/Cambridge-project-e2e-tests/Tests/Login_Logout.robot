@@ -30,8 +30,8 @@ Test Login And Logout Cambridge Website
 
 	Open Screenshot Session
     Screenshot                                 loginPage
-    Input Username                             jyu
-    Input Password                             Cambridge
+    Input Username                             username
+    Input Password                             password
     Submit Credentials
     Screenshot                                 mainPage
 

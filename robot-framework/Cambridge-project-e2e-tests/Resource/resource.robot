@@ -23,7 +23,7 @@ ${loginButton}                  css=input.btn.loginButton
 ${Applitools-url}               http://build.cambridgefx.com
 ${Applitools-AppName}           Cambridge_Website
 ${Applitools-TestName}          Cambridge_Test
-${Applitools-Key}               NhBEEo1frQRbYyUGLZmeazh2s107RAkBMmt6n6ylcsw108w110
+${Applitools-Key}               <applitools API Key>
 ${Width}                        1024
 ${Height}                       768
 
@@ -43,7 +43,7 @@ Open Browser To Home Page(Local)
 
 Open Browser To Home Page
 	[Arguments]  ${BROWSER}  ${BROWSER VERSION}  ${OS}  ${OS VERSION}
-	Open Browser  url=${URL}  browser=chrome  alias=None  remote_url=http://rehanarajwani1:bwrxEqELu83iJs4DsBws@hub.browserstack.com:80/wd/hub  desired_capabilities=browserstack.local:true,browser:${BROWSER},browser_version:${BROWSER VERSION},os:${OS}, os_version:${OS VERSION},resolution:1680x1050
+	Open Browser  url=${URL}  browser=chrome  alias=None  remote_url=<browser stack remote url>  desired_capabilities=browserstack.local:true,browser:${BROWSER},browser_version:${BROWSER VERSION},os:${OS}, os_version:${OS VERSION},resolution:1680x1050
     Element Should Be Visible  ${LOGINFORM}
 
 Open Screenshot Session
