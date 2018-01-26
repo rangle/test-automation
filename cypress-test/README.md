@@ -4,6 +4,8 @@ There exists one spec file that has 3 tests, each are mocking a product informat
 
 ## Installation & Execution
 
+Ensure that you're within the `cypress-test` directory
+
 Step 1 - `npm install`
 
 Step 2 - `npm test`
