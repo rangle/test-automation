@@ -1,0 +1,79 @@
+{
+  "6000002586022": {
+    "online": [
+      {
+        "maxRegularPrice": 1200.00,
+        "minRegularPrice": 1200.00,
+        "pricePerUnit": "$1234/unit",
+        "mapPrice": 0,
+        "minCurrentPrice": 1000.99,
+        "maxCurrentPrice": 1000.99,
+        "inventory": 6984,
+        "sku": "127191",
+        "clearance": false,
+        "offerId": "127191",
+        "limited": false,
+        "reducedPrice": false,
+        "offerType": "1P",
+        "limitedStock": false,
+        "sellerId": "0",
+        "rollback": false,
+        "date": "",
+        "status": "NotSold",
+        "eligible": false,
+        "sellerName": "Walmart",
+        "asAdvertised": false
+      }
+    ],
+    "stores": [
+      {
+        "minRegularPrice": 0,
+        "maxRegularPrice": 0,
+        "minCurrentPrice": 0,
+        "maxCurrentPrice": 0,
+        "inventory": 0,
+        "sku": "127191",
+        "clearance": false,
+        "limited": false,
+        "limitedStock": false,
+        "rollback": false,
+        "date": "",
+        "status": "NotSold",
+        "storeNumber": "3106",
+        "eligible": false,
+        "asAdvertised": false
+      }
+    ],
+    "onlineSummary": {
+      "status": "Available",
+      "date": "",
+      "eligible": false,
+      "clearance": false,
+      "rollback": false,
+      "asAdvertised": false,
+      "limited": false,
+      "limitedStock": false,
+      "minRegularPrice": 0,
+      "maxRegularPrice": 0,
+      "minCurrentPrice": 99.99,
+      "maxCurrentPrice": 99.99
+    },
+    "storeSummary": {
+      "status": "NotSold",
+      "date": "",
+      "eligible": false,
+      "clearance": false,
+      "rollback": false,
+      "asAdvertised": false,
+      "limited": false,
+      "limitedStock": false,
+      "minRegularPrice": 0,
+      "maxRegularPrice": 0,
+      "minCurrentPrice": 0,
+      "maxCurrentPrice": 0
+    },
+    "sellerDetails": {
+      
+    }
+  }
+}
