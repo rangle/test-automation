@@ -2,3 +2,5 @@
 .idea/*
 *.xml
 *.iml
+*/node_modules*
+*/yarn.lock
