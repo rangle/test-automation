@@ -1,0 +1,6 @@
+build/
+examples/
+bin/
+node_modules/
+allure-results/
+specs/

@@ -1,0 +1,11 @@
+*.log
+.DS_Store
+test/site.zip
+coverage
+.idea
+build
+node_modules/*
+errorShots/*
+allure-results/*
+
+!index.js

@@ -1,0 +1,15 @@
+{
+  "extends": "standard",
+  "parser": "babel-eslint",
+  "rules": {
+    "indent": [2, 4, 6, 8],
+    "standard/no-callback-literal": 0,
+
+    /* Atom fix */
+    "generator-star-spacing": 0,
+
+  },
+  "env": {
+    "browser": true
+    }
+}
