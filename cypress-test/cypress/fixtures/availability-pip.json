@@ -72,8 +72,6 @@
       "minCurrentPrice": 0,
       "maxCurrentPrice": 0
     },
-    "sellerDetails": {
-      
-    }
+    "sellerDetails": {}
   }
 }
