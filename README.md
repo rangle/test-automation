@@ -3,9 +3,12 @@
 This is a repository designed to showcase various e2e automation frameworks written against the same application under test.  
 
 # STARTING THE APP SERVER
+
+Requires nodeJS to run
+
 ```
-yarn install
-yarn dev
+yarn install (or npm install)
+yarn dev (or npm run dev)
 Navigate to http://locahost:3030
 ```
 
