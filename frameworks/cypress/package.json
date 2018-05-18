@@ -3,5 +3,11 @@
   "version": "1.0.0",
   "description": "Demonstrates how to implement basic e2e testing in Cypress against  a sample application",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^2.1.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/cypress open"
+  }
 }
