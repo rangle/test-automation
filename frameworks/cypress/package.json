@@ -1,0 +1,7 @@
+{
+  "name": "todos-cypress",
+  "version": "1.0.0",
+  "description": "Demonstrates how to implement basic e2e testing in Cypress against  a sample application",
+  "main": "index.js",
+  "license": "MIT"
+}
