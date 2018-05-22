@@ -23,11 +23,8 @@
 //
 // -- This is will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
-<<<<<<< Updated upstream
-=======
 
 Cypress.Commands.add('loadTodos', (todos = []) => {
   cy.server()
   cy.route('GET', '/api/todos', todos)
 })
->>>>>>> Stashed changes
