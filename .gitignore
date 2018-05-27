@@ -7,3 +7,4 @@
 build/*
 frameworks/cypress/cypress/screenshots/*
 frameworks/cypress/cypress/videos/*
+db.json
