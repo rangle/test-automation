@@ -8,7 +8,7 @@ describe('Marking todos complete', () => {
     cy.visit('/') //Since we have a baseUrl set in cypress.json, this will navigate to http://localhost:3030
   })
 
-  it('complete a newly added todo item', () => {
+  it('Complete a newly added todo item', () => {
     cy.get(newTodo).type(`${todoText}{enter}`) //{enter} simulates an enter key press in Cypress
     cy
       .get('[qa-id=todo-item]')
@@ -20,7 +20,7 @@ describe('Marking todos complete', () => {
     cy.get('li.completed').should('have.length', 1)
   })
 
-  it('completed state can be toggled', () => {
+  it('Completed state can be toggled', () => {
     cy
       .get('[qa-id=todo-item]')
       .first()

@@ -19,7 +19,7 @@ describe('Adding/Removing Todos', () => {
     cy.visit('/') //Since we have a baseUrl set in cypress.json, this will navigate to http://localhost:3030
   })
 
-  it('add a new todo item to the end of the list', () => {
+  it('Add a new todo item to the end of the list', () => {
     cy.get('[qa-id=todo-item]').should('have.length', todoLength)
     cy.get(newTodo).type(`${todoText}{enter}`)
     cy
@@ -29,7 +29,7 @@ describe('Adding/Removing Todos', () => {
       .should('have.text', todoText) //verify that the item has the correct text we entered
   })
 
-  it('remove a newly added todo item', () => {
+  it('Remove a newly added todo item', () => {
     cy.get(newTodo).type(`${todoText}{enter}`)
     cy
       .get('[qa-id=todo-item]')

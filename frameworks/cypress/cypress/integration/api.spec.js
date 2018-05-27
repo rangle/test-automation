@@ -1,5 +1,5 @@
 describe('API calls', () => {
-  it('should call /api/todos on page load', () => {
+  it('Should call /api/todos on page load', () => {
     cy.server()
     cy.route('GET', '/api/todos').as('getTodos') //alias our GET API call, so that we can wait for it to occur
     cy.visit('/')
