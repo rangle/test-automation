@@ -8,7 +8,7 @@ const middlewares = jsonServer.defaults({
 server.use(middlewares)
 server.use(jsonServer.bodyParser)
 
-server.delete('/api/todos/all', (req, res) => {
+server.delete('/api/todos/delete', (req, res) => {
   router.db.setState({ todos: [] }).then(() => res.sendStatus(200))
 })
 

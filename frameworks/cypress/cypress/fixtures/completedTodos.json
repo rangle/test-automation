@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Refinement",
+    "isComplete": true
+  },
+  {
+    "id": 2,
+    "name": "Planning",
+    "isComplete": true
+  },
+  {
+    "id": 3,
+    "name": "Demo",
+    "isComplete": true
+  },
+  {
+    "id": 4,
+    "name": "Retrospective",
+    "isComplete": true
+  }
+]
