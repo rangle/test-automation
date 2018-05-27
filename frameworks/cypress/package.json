@@ -8,6 +8,7 @@
     "cypress": "^2.1.0"
   },
   "scripts": {
-    "test": "./node_modules/.bin/cypress open"
+    "test": "./node_modules/.bin/cypress open",
+    "test:headless": "./node_modules/.bin/cypress run"
   }
 }
