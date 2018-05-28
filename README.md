@@ -17,7 +17,7 @@ Each framework example folder will contain a README with detailed instructions o
 
 # SERVER API
  
- `/api/todos/all`
+ `/api/todos/delete`
  * **Method**: `DELETE`
  * **Description**: Will remove all existing todos from `db.json`
 
