@@ -8,13 +8,14 @@ The [Cypress documentation](https://docs.cypress.io/guides/overview/why-cypress.
 
 # Usage
 
+This test framework relies on the Todos application co-located in this repo being set up locally on your machine. See the [root README]('../../README.md) for instructions.  Once the app dev server has been started, you can proceed with the below steps
+
 ```
-Ensure that the dev server is running for the Todos sample application
 yarn install (or npm install)
 yarn test (or npm test)
 ```
 
-After running `yarn test` a Cypress application window should be launched, with a list of test spec files.  Any of these can be clicked, to open and execute them in a Chrome browser.  
+After running `yarn test` a Cypress application window should be launched, with a list of test spec files.  Any of these can be clicked, which will then open that specific spec file in the Cypress test runner, which is a modified Chrome instance  
 
 # Project structure
 ### `cypress/fixtures`
