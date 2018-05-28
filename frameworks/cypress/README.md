@@ -1,6 +1,15 @@
+# Overview
+
+[Cypress.io](https://www.cypress.io/) is a flexible integration/e2e test execution environment that runs on Chromium browsers.  
+
+This project will demonstrate a few of its key features, and give you an overview of how you can structure a test framework, and interact with tests as you write them.
+
+The [Cypress documentation](https://docs.cypress.io/guides/overview/why-cypress.html) is wonderful, and it's recommended that you take [Core Concepts](https://docs.cypress.io/guides/core-concepts/introduction-to-cypress.html) section before you begin writing your own tests. 
+
 # Usage
 
 ```
+Ensure that the dev server is running for the Todos sample application
 yarn install (or npm install)
 yarn test (or npm test)
 ```
@@ -8,8 +17,7 @@ yarn test (or npm test)
 After running `yarn test` a Cypress application window should be launched, with a list of test spec files.  Any of these can be clicked, to open and execute them in a Chrome browser.  
 
 # Project structure
-### 
-`cypress/fixtures`
+### `cypress/fixtures`
 
 Fixtures are where you can save any sort of data that you want to access in your tests, and can be used in a variety of ways.  
 
