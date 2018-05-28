@@ -8,7 +8,7 @@ The [Cypress documentation](https://docs.cypress.io/guides/overview/why-cypress.
 
 # Usage
 
-This test framework relies on the Todos application co-located in this repo being set up locally on your machine. See the [root README]('../../README.md) for instructions.  Once the app dev server has been started, you can proceed with the below steps
+This test framework relies on the Todos application co-located in this repo being set up locally on your machine. See the [root README]('/../../../README.md) for instructions.  Once the app dev server has been started, you can proceed with the below steps
 
 ```
 yarn install (or npm install)
