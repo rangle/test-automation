@@ -8,7 +8,7 @@ yarn test (or npm test)
 After running `yarn test` a Cypress application window should be launched, with a list of test spec files.  Any of these can be clicked, to open and execute them in a Chrome browser.  
 
 # Project structure
-
+### 
 `cypress/fixtures`
 
 Fixtures are where you can save any sort of data that you want to access in your tests, and can be used in a variety of ways.  
@@ -17,7 +17,7 @@ This project contains a few sets of todo lists in various states that are used t
 
 Full details in the [Cypress documentation](https://docs.cypress.io/api/commands/fixture.html#JSON)
 
-`cypress/integration`
+### `cypress/integration`
 
 This is where tests are located in Cypress.  You can add additional folders underneath this directory, and they will be respected in the Cypress spec launcher. 
 
@@ -36,7 +36,7 @@ This is the config file for Cypress.  There are a number of different options av
 A full list of configuration options are available in the [Cypress documentation](https://docs.cypress.io/guides/references/configuration.html)
 
 
-## Running Headlessly
+# Running Headlessly
 Cypress comes built in with a headless test execution mode, which can be run with the following command:
 
 `yarn test:headless (or npm run test:headless)`
