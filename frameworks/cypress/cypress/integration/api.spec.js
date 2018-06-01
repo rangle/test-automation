@@ -26,7 +26,7 @@ describe('API calls', () => {
         status: 500,
         response: {},
       })
-      .as('save')
+      .as('saveTodo')
 
     cy.loadTodos()
     cy.visit('/')
@@ -35,7 +35,7 @@ describe('API calls', () => {
       .type(todoText)
       .type('{enter}')
 
-    cy.wait('@save')
+    cy.wait('@saveTodo')
     cy.get('[qa-id=todo-item]').should('have.length', 4)
     cy.get('.error').should('be.visible')
   })
