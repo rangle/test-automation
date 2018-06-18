@@ -15,7 +15,12 @@ yarn install (or npm install)
 yarn test (or npm test)
 ```
 
-After running `yarn test` a Cypress application window should be launched, with a list of test spec files.  Any of these can be clicked, which will then open that specific spec file in the Cypress test runner, which is a modified Chrome instance  
+After running `yarn test` a Cypress application window should be launched, with a list of test spec files.  Any of these can be clicked, which will then open that specific spec file in the Cypress app, which is a modified Chrome instance 
+
+# Cypress App
+
+The Cypress App is where you would spend your time developing new tests, as well as debugging and diagnosing them.  [Cypress documentation](https://docs.cypress.io/guides/core-concepts/test-runner.html#Instrument-Panel) contain a good overview of the functionality it offers.    
+
 
 # Project structure
 ### `cypress/fixtures`
@@ -28,9 +33,7 @@ Full details in the [Cypress documentation](https://docs.cypress.io/api/commands
 
 ### `cypress/integration`
 
-This is where tests are located in Cypress.  You can add additional folders underneath this directory, and they will be respected in the Cypress spec launcher. 
-
-This project contains a few spec files, as well as an `example_spec.js` file that is a kitchen sink example of things you can do within Cypress.  It is fully commented out, but can easily be commented back in and executed, if you are curious to see an exhaustive list of Cypress features not included in this small project.
+This is where tests are located in Cypress.  You can add additional folders underneath this directory, and they will be respected in the Cypress spec launcher  This project contains a few spec files split into two folders, `todosApp` and `examples`.  Examples comtains a series of spec files that demonstrate a large number of the features you can use within Cypress.  Our tests are all located under the `todosApp` folder
 
 ### `cypress/plugins`
 No plugins are included in this project, but Cypress supports a number of different types of plugins, as well as writing your own. [Current available plugins](https://docs.cypress.io/plugins/)
@@ -50,7 +53,7 @@ Cypress comes built in with a headless test execution mode, which can be run wit
 
 `yarn test:headless (or npm run test:headless)`
 
-This will run all tests that are found under the `integration` folder.  Cypress will create a `videos` folder and save a recording of this headless execution, to aid debugging if there are any issues.
+This will run all tests that are found under the `integration/todosApp` folder.  Cypress will create a `videos` folder and save a recording of this headless execution, to aid debugging if there are any issues.
 
 
 
