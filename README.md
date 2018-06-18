@@ -1,6 +1,12 @@
 # README (WIP)
 
-This is a repository designed to showcase various e2e automation frameworks written against the same application under test.  
+This is a repository designed to showcase various e2e automation frameworks written against the same application under test.  This repo contains a simple todos application that can be executed via a local development server.  It contains a small feature set:
+* Add/remove todos
+* Toggle todo item status (Complete/Active)
+* Filter list by todo item status
+
+In addition there are a couple of server API methods described below to show how various e2e automation frameworks can use these to create a more robust, stable, and fast-executing test frameworks
+
 
 # STARTING THE APP SERVER
 
