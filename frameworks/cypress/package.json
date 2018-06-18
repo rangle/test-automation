@@ -9,6 +9,6 @@
   },
   "scripts": {
     "test": "./node_modules/.bin/cypress open",
-    "test:headless": "./node_modules/.bin/cypress run"
+    "test:headless": "./node_modules/.bin/cypress run --spec 'cypress/integration/todosApp/*"
   }
 }
