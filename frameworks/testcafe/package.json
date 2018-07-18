@@ -1,0 +1,13 @@
+{
+  "name": "ToDo MVC Demo",
+  "version": "1.0.0",
+  "description": "TestCafe automation demo",
+  "author": "Erick Dimistracopulos",
+  "license": "MIT",
+  "devDependencies": {
+    "testcafe": "^0.20.3"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
