@@ -9,3 +9,4 @@ frameworks/cypress/cypress/screenshots/*
 frameworks/cypress/cypress/videos/*
 frameworks/testcafe/screenshots/*
 db.json
+.vscode*
