@@ -2,5 +2,10 @@
 .idea/*
 *.xml
 *.iml
-*/node_modules*
+*node_modules*
 */yarn.lock
+build/*
+frameworks/cypress/cypress/screenshots/*
+frameworks/cypress/cypress/videos/*
+frameworks/testcafe/screenshots/*
+db.json
