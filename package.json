@@ -7,7 +7,9 @@
     "build": "webpack",
     "watch": "webpack --watch",
     "serve": "node .",
-    "dev": "concurrently \"npm run watch\" \"npm run serve\""
+    "dev": "concurrently \"npm run watch\" \"npm run serve\"",
+    "test": "cd ./frameworks/cypress && yarn test:headless",
+    "install:cypress": "cd ./frameworks/cypress && yarn install"
   },
   "keywords": [],
   "author": "",
