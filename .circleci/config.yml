@@ -50,19 +50,19 @@ jobs:
     <<: *defaults
     parallelism: 2
     steps:
-      - attach_workspace
-        at: ~/
+      - attach_workspace:
+          at: ~/
       - run: yarn test
       - store_artifacts:
           path: frameworks/cypress/cypress/videos
       - store_artifacts:
           path: frameworks/cypress/cypress/screenshots
 
-workflows: 
+workflows:
   version: 2
   build_and_test:
     jobs:
       - build
-      - test:
+      - ? test
         requires:
           - build
