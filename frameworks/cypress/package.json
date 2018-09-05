@@ -10,6 +10,7 @@
   "scripts": {
     "test": "./node_modules/.bin/cypress open",
     "test:headless": "./node_modules/.bin/cypress run --spec 'cypress/integration/todosApp/*' --record --key e16ffb96-272f-4932-b1dc-a72f00499304 --parallel",
-    "test:headless:all": "./node_modules/.bin/cypress run"
+    "test:headless:all": "./node_modules/.bin/cypress run",
+    "cy:verify": "./node_modules/.bin/cypress verify"
   }
 }
