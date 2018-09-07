@@ -60,4 +60,4 @@ This will run all tests that are found under the `integration/todosApp` folder. 
 
 # Cypress Dashboard
 
-One of the features that Cypress is currently offering is a dashboard service, which when enabled for a project
+One of the features that Cypress is currently offering is a dashboard service, which when enabled for a project will be a dedicated source to viewing test results as well as test artifacts(logs, screenshots and videos of test executions). This is similar to how most CI jobs can be configured, but is focused purely on test results, and will be an area of focus for the Cypress team in 2018/19 to build out additional features. There is a [dashboard](https://dashboard.cypress.io/#/projects/3hp4n2/runs) set up for this project that can be viewed. Further information about the dashboard capabilities as well as future goals can be found in the [Cypress documentation](https://docs.cypress.io/guides/core-concepts/dashboard-service.html)
