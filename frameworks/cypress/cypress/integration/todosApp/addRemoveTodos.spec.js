@@ -10,8 +10,7 @@ describe('Adding/Removing Todos', () => {
     /*In order to make this test suite resilient to data changes, we'll grab the length of the todos object
       to make assertions on in the below tests
       */
-    cy
-      .fixture('activeTodos')
+    cy.fixture('activeTodos')
       .its('length')
       .then(length => {
         todoLength = length
@@ -22,8 +21,7 @@ describe('Adding/Removing Todos', () => {
   it('Add a new todo item to the end of the list', () => {
     cy.get('[qa-id=todo-item]').should('have.length', todoLength)
     cy.get(newTodo).type(`${todoText}{enter}`)
-    cy
-      .get('[qa-id=todo-item]')
+    cy.get('[qa-id=todo-item]')
       .should('have.length', todoLength + 1) //verify that we've actually added a todo item
       .last()
       .should('have.text', todoText) //verify that the item has the correct text we entered
@@ -31,8 +29,7 @@ describe('Adding/Removing Todos', () => {
 
   it('Remove a newly added todo item', () => {
     cy.get(newTodo).type(`${todoText}{enter}`)
-    cy
-      .get('[qa-id=todo-item]')
+    cy.get('[qa-id=todo-item]')
       .should('have.length', todoLength + 1)
       .last()
       .should('have.text', todoText)
