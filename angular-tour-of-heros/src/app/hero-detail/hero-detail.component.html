@@ -1,0 +1,9 @@
+<div *ngIf = "hero">
+<h2 data-qaid='hero-name-detail'>{{hero.name | uppercase}} Details</h2>
+<div data-qaid="selected-hero-id"><span> id: </span>{{hero.id}}</div>
+<div>
+  <label>name:
+    <input [(ngModel)]="hero.name" placeholder="name" data-qaid="selected-hero-input"/>
+  </label>
+</div>
+</div>
