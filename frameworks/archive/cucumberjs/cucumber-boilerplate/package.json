@@ -32,7 +32,7 @@
     "mocha": "2.3.3",
     "q": "~1.4.1",
     "webdriverio": "~3.4.0",
-    "yadda": "~0.16.0"
+    "yadda": "~0.22.1"
   },
   "devDependencies": {
     "http-server": "0.8.5",
