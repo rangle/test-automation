@@ -5,12 +5,16 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "cypress": "^4.0.0"
+    "cypress": "^4.0.0",
+    "snyk": "^1.316.1"
   },
   "scripts": {
     "test": "./node_modules/.bin/cypress open",
     "test:headless": "./node_modules/.bin/cypress run --spec 'cypress/integration/todosApp/*' --record --key e16ffb96-272f-4932-b1dc-a72f00499304 --parallel",
     "test:headless:all": "./node_modules/.bin/cypress run",
-    "cy:verify": "./node_modules/.bin/cypress verify"
-  }
+    "cy:verify": "./node_modules/.bin/cypress verify",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
